@@ -1,0 +1,40 @@
+.home-container {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .welcome-section {
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+    margin-bottom: 20px;
+  }
+  
+  .btn_btn_success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn_btn_success:hover {
+    background-color: #218838;
+  }
+  
