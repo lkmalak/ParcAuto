@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom'
 function Gestion () {
     return (
@@ -12,9 +12,10 @@ function Gestion () {
                 </tr>
             </table>
             </div>
-            <Link to='/' className='btn_btn_success'>modifier</Link>
+            <Link to='/gestion' className='btn_btn_success'>modifier</Link>
         </div>
         
     )
 
 }
+export default Gestion;

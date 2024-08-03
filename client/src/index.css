@@ -1,13 +1,234 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.div {
+  background-color: #fff;
+  display: flex;
+  padding-bottom: 80px;
+  flex-direction: column;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.div-2 {
+  border-radius: 16px;
+  backdrop-filter: blur(14.100000381469727px);
+  background-color: #69a9d1;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  color: #fff;
+  justify-content: space-between;
+  padding: 6px 70px 26px 19px;
+}
+@media (max-width: 991px) {
+  .div-2 {
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding-right: 20px;
+  }
+}
+.div-3 {
+  display: flex;
+  gap: 15px;
+  font-size: 36px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.72px;
+  line-height: 152%;
+}
+@media (max-width: 991px) {
+  .div-3 {
+    white-space: initial;
+  }
+}
+.img {
+  aspect-ratio: 0.85;
+  object-fit: auto;
+  object-position: center;
+  width: 71px;
+}
+.div-4 {
+  font-family: Poppins, sans-serif;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+}
+.div-5 {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  justify-content: space-between;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .div-5 {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.div-6 {
+  font-family: Poppins, sans-serif;
+  white-space: nowrap;
+}
+@media (max-width: 991px) {
+  .div-6 {
+    white-space: initial;
+  }
+}
+.div-7 {
+  font-family: Poppins, sans-serif;
+  white-space: nowrap;
+}
+@media (max-width: 991px) {
+  .div-7 {
+    white-space: initial;
+  }
+}
+.div-8 {
+  font-family: Poppins, sans-serif;
+}
+.div-9 {
+  font-family: Poppins, sans-serif;
+  align-self: stretch;
+}
+.div-10 {
+  border-radius: 20px;
+  box-shadow: 0px 16px 40px 0px rgba(154, 170, 207, 0.2);
+  background-color: #fff;
+  align-self: center;
+  display: flex;
+  margin-top: 86px;
+  width: 590px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  color: #4b4b4b;
+  font-weight: 400;
+  padding: 80px;
+}
+@media (max-width: 991px) {
+  .div-10 {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+.div-11 {
+  display: flex;
+  margin-top: 23px;
+  gap: 20px;
+  white-space: nowrap;
+}
+@media (max-width: 991px) {
+  .div-11 {
+    white-space: initial;
+  }
+}
+.div-12 {
+  align-self: end;
+  margin-top: 120px;
+  font: 24px Lato, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-12 {
+    margin-top: 40px;
+  }
+}
+.div-13 {
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  flex-grow: 1;
+  flex-basis: 0;
+  width: fit-content;
+}
+@media (max-width: 991px) {
+  .div-13 {
+    white-space: initial;
+  }
+}
+.div-14 {
+  font-family: Lato, sans-serif;
+}
+.img-2 {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 22px;
+  align-self: end;
+  margin-top: 118px;
+}
+@media (max-width: 991px) {
+  .img-2 {
+    margin-top: 40px;
+  }
+}
+.img-3 {
+  object-fit: auto;
+  object-position: center;
+  width: 396px;
+  stroke-width: 1px;
+  stroke: #4b4b4b;
+  margin-top: 17px;
+  max-width: 100%;
+  border: 1px solid rgba(75, 75, 75, 1);
+}
+.div-15 {
+  display: flex;
+  margin-top: 49px;
+  width: 377px;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 24px;
+}
+@media (max-width: 991px) {
+  .div-15 {
+    margin-top: 40px;
+  }
+}
+.div-16 {
+  font-family: Lato, sans-serif;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+.img-4 {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 23px;
+  align-self: start;
+}
+.img-5 {
+  object-fit: auto;
+  object-position: center;
+  width: 396px;
+  stroke-width: 1px;
+  stroke: #4b4b4b;
+  margin-top: 16px;
+  max-width: 100%;
+  border: 1px solid rgba(75, 75, 75, 1);
+}
+.div-17 {
+  color: #3891c9;
+  align-self: end;
+  margin-top: 17px;
+  font: 14px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-17 {
+    margin-right: 10px;
+  }
+}
+.div-18 {
+  border-radius: 18px;
+  background-color: #3891c9;
+  width: 396px;
+  max-width: 100%;
+  color: #fff;
+  text-align: center;
+  margin: 26px 0;
+  padding: 19px 60px;
+  font: 24px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-18 {
+    padding: 0 20px;
+  }
 }

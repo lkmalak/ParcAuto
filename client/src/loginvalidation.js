@@ -14,7 +14,7 @@ else {
 if(!values.password){
     error.password = "Password is required"
 }
-if(!/.{8,}/.test(values.password)){
+if(!/^.{8,}$/.test(values.password)){
     error.password = "Password must be more than 8 characters"
 }
 else {

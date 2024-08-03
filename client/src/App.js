@@ -1,19 +1,21 @@
 import React from 'react';
-import { BrowserRouter, Router, Route} from 'react-router-dom';
+import  { BrowserRouter, Routes, Route }from 'react-router-dom';
 import AddUser from './addUser';
 import Login from './login';
+import Gestion from './Gestion_user';
+import Dash from './dashboard';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <BrowserRouter>
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/addUser" component={AddUser} />
-        </BrowserRouter>
-      </div>
-    </Router>
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login/>} />
+          <Route path="/addUser" element={<AddUser/>} />
+          <Route path="/gestion" element={<Gestion/>} />
+          <Route path="/dash" element={<Dash/>} />
+        </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+export default App;
