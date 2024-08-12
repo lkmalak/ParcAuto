@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';;
 import AddUser from './addUser';
 import Login from './login';
 import Gestion from './Gestion_user';
+import Stock from './Stock';
+import ParcAuto from './ParcAuto';
 
 
 function App() {
